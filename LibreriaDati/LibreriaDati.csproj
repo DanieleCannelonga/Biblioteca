@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191118150318_Aggiunta Tabelle.cs" />
+    <Compile Remove="Migrations\20191118150318_Aggiunta Tabelle.Designer.cs" />
+    <Compile Remove="Migrations\20191118151046_Aggiunta Tabelle.cs" />
+    <Compile Remove="Migrations\20191118151046_Aggiunta Tabelle.Designer.cs" />
+    <Compile Remove="Migrations\20191118151759_Prova2.cs" />
+    <Compile Remove="Migrations\20191118151759_Prova2.Designer.cs" />
+    <Compile Remove="Migrations\20191118152305_Prova2.cs" />
+    <Compile Remove="Migrations\20191118152305_Prova2.Designer.cs" />
+    <Compile Remove="Migrations\20191121134958_Secondo Aggiornamento.cs" />
+    <Compile Remove="Migrations\20191121134958_Secondo Aggiornamento.Designer.cs" />
+    <Compile Remove="Migrations\20191121141555_Discriminator.cs" />
+    <Compile Remove="Migrations\20191121141555_Discriminator.Designer.cs" />
+    <Compile Remove="Migrations\20191121143515_Discriminatore.cs" />
+    <Compile Remove="Migrations\20191121143515_Discriminatore.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
